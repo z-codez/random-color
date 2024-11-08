@@ -1,19 +1,21 @@
 body {
   background-color: #110815;
   color: #ffffff;
-}
-
-h1, p {
   text-align: center;
 }
 
 button {
-  display: block;
-  margin: 2rem auto;
   border: 4px solid #FEAC32;
   background-color: #FEC849;
+  background-image: linear-gradient(180deg, #FEC849, #FEAC32);
   width: 150px;
   font-size: 11px;
+  margin-top: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
+}
+
+button:hover {
+  background-image: linear-gradient(180deg, #ffcc4c, #ffac33);
+  cursor: pointer;
 }
